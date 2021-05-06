@@ -21,7 +21,7 @@ eureka:
     service-url:
       defaultZone: https://fake-news-eureka-server.herokuapp.com/eureka
   instance:
-    hostname: localhost
+    hostname: fake-news-eureka-server.herokuapp.com
 
 server:
   port: 8090
